@@ -12,7 +12,7 @@ address:
 #  postcode: '94305'
   country: France
 
-summary: NIV-Detector: An Automated Approach for Detecting Next-Intent Security Vulnerability in Android Applications
+summary: NIV Detector An Automated Approach for Detecting Next-Intent Security Vulnerability in Android Applications
 abstract: ''
 
 # Talk start and end times.
