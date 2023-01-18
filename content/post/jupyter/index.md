@@ -1,77 +1,60 @@
 ---
-title: Display Jupyter Notebooks with Academic
-subtitle: Learn how to blog in Academic using Jupyter notebooks
-summary: Learn how to blog in Academic using Jupyter notebooks
-authors:
-  - admin
-tags: []
-categories: []
+title: Learn Quantum Computation using Qiskit
+subtitle: If you think quantum mechanics sounds challenging, you are not alone. All of our intuitions are based on day-to-day experiences, and so are better at understanding the behavior of balls and bananas than atoms or electrons. Though quantum objects can seem random and chaotic at first, they just follow a different set of rules. Once we know what those rules are, we can use them to create new and powerful technology. Quantum computing will be the most revolutionary example of this.
+
+# Summary for listings and search engines
+summary: This is a free digital textbook that will teach you the concepts of quantum computing while you learn to use the Qiskit SDK.
+
+# Link this post with a project
 projects: []
-date: '2019-02-05T00:00:00Z'
-lastMod: '2019-09-05T00:00:00Z'
+
+# Date published
+date: '2023-01-01T00:00:00Z'
+
+# Date updated
+lastmod: '2023-01-01T00:00:00Z'
+
+# Is this an unpublished draft?
+draft: false
+
+# Show this page in the Featured widget?
+featured: false
+
+# Featured image
+# Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
-  caption: ''
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)'
   focal_point: ''
+  placement: 2
+  preview_only: false
+
+authors:
+  - qiskit.org
+
+tags:
+  - Academic
+
+categories:
+  - Demo
 ---
 
 ```python
-from IPython.core.display import Image
-Image('https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png')
+import libr
+print('hello')
 ```
 
-![png](./index_1_0.png)
+## Overview
 
-```python
-print("Welcome to Academic!")
-```
+‘Quantum physics’ is a term widely used but much less understood. It is a mathematical model first used to describe the behavior of small things in a laboratory, which exposed gaps in the preceding theory of ‘classical’ physics. Quantum theory explains this behavior and gives us a more complete picture of our universe. We have realized we can use this previously unexplained behavior to perform certain computations that we previously did not believe possible. We call this quantum computing.
 
-    Welcome to Academic!
+Quantum computing is the perfect way to dip your toes into quantum physics. It distills the core concepts from quantum physics into their simplest forms, stripping away the complications of the physical world. This page will take you on a short journey to discover (and explain!) some strange quantum phenomena, and give you a taste for what ‘quantum’ is.
 
-## Install Python and JupyterLab
+## Get Started
 
-[Install Anaconda](https://www.anaconda.com/distribution/#download-section) which includes Python 3 and JupyterLab.
+- 👉 [**qiskit site**](https://qiskit.org/)
 
-Alternatively, install JupyterLab with `pip3 install jupyterlab`.
+## Crowd-funded open-source software
 
-## Create or upload a Jupyter notebook
+If you have any questions or suggestions about the textbook or would like to incorporate it into your curriculum, please contact Frank Harkins (Francis.Harkins@ibm.com). In the true spirit of open-source, any chapter contributions are welcome in this GitHub repository.
 
-Run the following commands in your Terminal, substituting `<MY-WEBSITE-FOLDER>` and `<SHORT-POST-TITLE>` with the file path to your Academic website folder and a short title for your blog post (use hyphens instead of spaces), respectively:
-
-```bash
-mkdir -p <MY-WEBSITE-FOLDER>/content/post/<SHORT-POST-TITLE>/
-cd <MY-WEBSITE-FOLDER>/content/post/<SHORT-POST-TITLE>/
-jupyter lab index.ipynb
-```
-
-The `jupyter` command above will launch the JupyterLab editor, allowing us to add Academic metadata and write the content.
-
-## Edit your post metadata
-
-The first cell of your Jupter notebook will contain your post metadata ([front matter](https://sourcethemes.com/academic/docs/front-matter/)).
-
-In Jupter, choose _Markdown_ as the type of the first cell and wrap your Academic metadata in three dashes, indicating that it is YAML front matter:
-
-```
----
-title: My post's title
-date: 2019-09-01
-
-# Put any other Academic metadata here...
----
-```
-
-Edit the metadata of your post, using the [documentation](https://sourcethemes.com/academic/docs/managing-content) as a guide to the available options.
-
-To set a [featured image](https://sourcethemes.com/academic/docs/managing-content/#featured-image), place an image named `featured` into your post's folder.
-
-For other tips, such as using math, see the guide on [writing content with Academic](https://wowchemy.com/docs/content/writing-markdown-latex/).
-
-## Convert notebook to Markdown
-
-```bash
-jupyter nbconvert index.ipynb --to markdown --NbConvertApp.output_files_dir=.
-```
-
-## Example
-
-This post was created with Jupyter. The orginal files can be found at https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter
+### [❤️ questions ❤️](Francis.Harkins@ibm.com)

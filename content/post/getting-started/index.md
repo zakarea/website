@@ -49,11 +49,9 @@ print('hello')
 
 Quantum computing is the perfect way to dip your toes into quantum physics. It distills the core concepts from quantum physics into their simplest forms, stripping away the complications of the physical world. This page will take you on a short journey to discover (and explain!) some strange quantum phenomena, and give you a taste for what ‘quantum’ is.
 
-[![The template is mobile first with a responsive design to ensure that your site looks stunning on every device.](https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/main/starters/academic/preview.png)](https://wowchemy.com)
-
 ## Get Started
 
-- 👉 [**Create a new site**](https://qiskit.org/textbook/preface.html/)
+- 👉 [**qiskit site**](https://qiskit.org/)
 
 ## Crowd-funded open-source software
 
