@@ -24,10 +24,10 @@ publication_types: ["2"]
 publication: "International Journal of Cloud Computing"
 publication_short: ""
 
-abstract: Cloud computing is an evolving and fast-growing computing paradigm that has gained great interest from both industry and academia. Consequently, universities are actively integrating cloud computing into their IT curricula. One major challenge facing cloud computing instructors is the lack of a teaching tool to experiment with. This paper introduces TeachCloud, a modelling and simulation environment for cloud computing. TeachCloud can be used to experiment with different cloud components such as: processing elements, data centres, storage, networking, service level agreement (SLA) constraints, web-based applications, service oriented architecture (SOA), virtualisation, management and automation, and business process management (BPM). Also, TeachCloud introduces MapReduce processing model in order to handle embarrassingly parallel data processing problems. TeachCloud is an extension of CloudSim, a research-oriented simulator used for the development and validation in cloud computing.
+abstract: 
 
 # Summary. An optional shortened abstract.
-summary: Cloud computing is an evolving and fast-growing computing paradigm that has gained great interest from both industry and academia. Consequently, universities are actively integrating cloud computing into their IT curricula. One major challenge facing cloud computing instructors is the lack of a teaching tool to experiment with. This paper introduces TeachCloud, a modelling and simulation environment for cloud computing. TeachCloud can be used to experiment with different cloud components such as: processing elements, data centres, storage, networking, service level agreement (SLA) constraints, web-based applications, service oriented architecture (SOA), virtualisation, management and automation, and business process management (BPM). Also, TeachCloud introduces MapReduce processing model in order to handle embarrassingly parallel data processing problems. TeachCloud is an extension of CloudSim, a research-oriented simulator used for the development and validation in cloud computing.
+summary: 
 
 tags:
 - Source Themes
