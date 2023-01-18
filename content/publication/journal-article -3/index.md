@@ -1,16 +1,16 @@
 ---
-title: "An example journal article"
+title: "An Evaluation of the RSA Private Keys and the Presence of Weak Keys"
 authors:
+- Mahmoud M. Almazari
+- Eyad Taqieddin
+- Ahmed S. Shatnawi
 - admin
-- Robert Ford
-author_notes:
-- "Equal contribution"
-- "Equal contribution"
-date: "2015-09-01T00:00:00Z"
+
+date: "2022-11-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: ""
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -19,13 +19,13 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
+publication: "Journal of Discrete Mathematical Sciences & Cryptography"
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: GitHub provides a distributed and collaborative platform to develop and maintain open-source projects. This social coding platform achieves this collaborative development, with or without coordination, using pull requests and issues artefacts. When the number of daily submitted issues rapidly grows up, especially in popular repositories, managing issues becomes more complicated. To help the repository’s developers in issues processing, there are external contributors who fix issues by submitting pull-requests. On GitHub, a pull-request is frequently linked with a submitted issue to show that a solution is in progress. Unfortunately, contributors might forget or be lazy to link the Pull-Requests with their corresponding Issues. Only a tiny share of these links are established, but a large portion of links are missed in the development history. However, manually recovering the links between Pull-Request and Issues from evolutionary development history is a challenging, time-consuming, and error-prone task, even for senior developers. In this article, we propose to build ML models to recover links between pull-requests and issues using two Machine Learning algorithms (KMeans and BIRCH) based on lexical and semantic weighting measurements. These models are evaluated using PI-Link ground-truth dataset. The obtained results show that pull-request and issue links can be recovered with an accuracy of 91.5% using BIRCH clustering algorithm.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: In this article, we propose to build ML models to recover links between pull-requests and issues using two Machine Learning algorithms (KMeans and BIRCH) based on lexical and semantic weighting measurements. These models are evaluated using PI-Link ground-truth dataset. The obtained results show that pull-request and issue links can be recovered with an accuracy of 91.5% using BIRCH clustering algorithm.
 
 tags:
 - Source Themes
@@ -34,13 +34,13 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/wowchemy/wowchemy-hugo-themes'
+url_pdf: https://www.researchgate.net/publication/361654185_RSA_Private_Keys_and_the_Presence_of_Weak_Keys_An_Evaluation
+url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: ''
+url_source: 'https://github.com/topics/rsa-universal-key'
 url_video: ''
 
 # Featured image
@@ -62,15 +62,6 @@ projects: []
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+# slides: example
 ---
 
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
