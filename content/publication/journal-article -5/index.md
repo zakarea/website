@@ -1,17 +1,17 @@
 ---
-title: "PI-Link: A Ground-Truth Dataset of Links Between Pull-Requests and Issues in GitHub"
+title: "CoMe4ACloud: An end-to-end framework for autonomic Cloud systems"
 authors:
 - admin
-- A. Shatnawi
-- H. Eyal-Salman
-- A. -D. Seriai
-- M. Shatnawi
-
-date: "2023-01-03T00:00:00Z"
-doi: "10.1109/ACCESS.2022.3232982"
+- Frederico Alvares
+- Hugo Bruneliere
+- Jonathan Lejeune
+- Charles PrudHomme
+- Thomas Ledoux
+date: "2018-09-01T00:00:00Z"
+doi: "10.1016/j.future.2018.03.039"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2022-12-28T00:00:00Z"
+publishDate: "2018-09-01T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -20,13 +20,13 @@ publishDate: "2022-12-28T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "IEEE Access"
+publication: "Future Generation Computer Systems"
 publication_short: ""
 
-abstract: GitHub hosts Git repositories and provides issues-tracking services to provide a better collaboration environment for software developers. Issues and Pull-Requests are frequently used in GitHub to discuss and review the software requirements (new features, bugs, etc.) and software solutions (source code, test cases, etc.) respectively. The links between Issues and their corresponding Pull-Requests comprise valuable information to keep tracking current development as well as documenting knowledge for future development. Considering a large number of links, such information can be used to train machine learning models for several purposes such as feature location, bug prediction and localization, recommendation systems and documentation generation. To the best of our knowledge, no dataset has been proposed as a ground-truth of links between Issues and Pull-Requests. In this paper, we propose, PI-Link, a new significant and reliable ground-truth dataset composed of 50369 links that explicitly connect 34732 Issues with 50369 Pull-Requests. These links are automatically extracted from all (907,139) Android projects in GitHub created between January 1, 2011 and January 1, 2021. To better organize and store the collected data, we propose a metamodel based on the concepts of Issues and Pull Requests. Moreover, we analyze the relationships between Issues and their linked Pull Requests based on four features related to their titles, bodies, labels and comments. The selected features are analyzed in terms of their lengths and similarities based on three lexical and one semantic similarity metrics. The results showed promising similarities between Issues and their linked PRs at the lexical and semantic levels. In addition, some feature similarities are sensitive to the text length, whereas other feature similarities are sensitive to the term frequency.
+abstract: Autonomic Computing has largely contributed to the development of self-manageable Cloud services. It notably allows freeing Cloud administrators of the burden of manually managing varying-demand services, while still enforcing Service-Level Agreements (SLAs). All Cloud artifacts, regardless of the layer carrying them, share many common characteristics. Thus, it should be possible to specify, (re)configure and monitor any XaaS (Anything-as-a-Service) layer in an homogeneous way. To this end, the CoMe4ACloud approach proposes a generic model-based architecture for autonomic management of Cloud systems. We derive a generic unique Autonomic Manager (AM) capable of managing any Cloud service, regardless of the layer. This AM is based on a constraint solver which aims at finding the optimal configuration for the modeled XaaS, i.e. the best balance between costs and revenues while meeting the constraints established by the SLA. We evaluate our approach in two different ways. Firstly, we analyze qualitatively the impact of the AM behavior on the system configuration when a given series of events occurs. We show that the AM takes decisions in less than 10 s for several hundred nodes simulating virtual/physical machines. Secondly, we demonstrate the feasibility of the integration with real Cloud systems, such as Openstack, while still remaining generic. Finally, we discuss our approach according to the current state-of-the-art.
 
 # Summary. An optional shortened abstract.
-summary: In this paper, we propose, PI-Link, a new significant and reliable ground-truth dataset composed of 50369 links that explicitly connect 34732 Issues with 50369 Pull-Requests. These links are automatically extracted from all (907,139) Android projects in GitHub created between January 1, 2011 and January 1, 2021. To better organize and store the collected data, we propose a metamodel based on the concepts of Issues and Pull Requests. Moreover, we analyze the relationships between Issues and their linked Pull Requests based on four features related to their titles, bodies, labels and comments.
+summary: The CoMe4ACloud approach proposes a generic model-based architecture for autonomic management of Cloud systems. We derive a generic unique Autonomic Manager (AM) capable of managing any Cloud service, regardless of the layer. This AM is based on a constraint solver which aims at finding the optimal configuration for the modeled XaaS, i.e. the best balance between costs and revenues while meeting the constraints established by the SLA.
 
 tags:
 - Source Themes
@@ -35,11 +35,11 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10002372
+url_pdf: https://www.sciencedirect.com/sdfe/reader/pii/S0167739X17320605/pdf
 url_code: ''
-url_dataset: 'https://www.kaggle.com/datasets/zakareaalshara/android-closed-issues-20110101-20210101-clean?select=android_closed_issues_2011-01-01_2021-01-01_all_clean_issues.json'
+url_dataset: ''
 url_poster: ''
-url_project: ''
+url_project: 'https://come4acloud.github.io/'
 url_slides: ''
 url_source: ''
 url_video: ''

@@ -3,7 +3,7 @@ title: "Automatic Identification of Similar Pull-Requests in GitHubs Repositorie
 authors:
 - H. Eyal-Salman
 - admin
-- A. -D. Seriai
+- A. Seriai
 
 date: "2022-02-03T00:00:00Z"
 doi: "10.3390/info13020073"
