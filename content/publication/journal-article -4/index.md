@@ -1,16 +1,15 @@
 ---
-title: "An example journal article"
+title: "Automatic Identification of Similar Pull-Requests in GitHub's Repositories Using Machine Learning"
 authors:
+- H. Eyal-Salman
 - admin
-- Robert Ford
-author_notes:
-- "Equal contribution"
-- "Equal contribution"
-date: "2015-09-01T00:00:00Z"
-doi: ""
+- A. -D. Seriai
+
+date: "2022-02-03T00:00:00Z"
+doi: "10.3390/info13020073"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2022-12-28T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -19,13 +18,13 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
+publication: "IEEE Access"
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: In a social coding platform such as GitHub, a pull-request mechanism is frequently used by contributors to submit their code changes to reviewers of a given repository. In general, these code changes are either to add a new feature or to fix an existing bug. However, this mechanism is distributed and allows different contributors to submit unintentionally similar pull-requests that perform similar development activities. Similar pull-requests may be submitted to review in parallel time by different reviewers. This will cause redundant reviewing time and efforts. Moreover, it will complicate the collaboration process. Objective: Therefore, it is useful to assign similar pull-requests to the same reviewer to be able to decide which pull-request to choose in effective time and effort. In this article, we propose to group similar pull-requests together into clusters so that each cluster is assigned to the same reviewer or the same reviewing team. This proposal allows saving reviewing efforts and time. Method: To do so, we first extract descriptive textual information from pull-requests content to link similar pull-requests together. Then, we employ the extracted information to find similarities among pull-requests. Finally, machine learning algorithms (K-Means clustering and agglomeration hierarchical clustering algorithms) are used to group similar pull-requests together. Results: To validate our proposal, we have applied it to twenty popular repositories from public dataset. The experimental results show that the proposed approach achieved promising results according to the well-known metrics in this subject: precision and recall. Furthermore, it helps to save the reviewer time and effort. Conclusion: According to the obtained results, the K-Means algorithm achieves 94% and 91% average precision and recall values over all considered repositories, respectively, while agglomeration hierarchical clustering performs 93% and 98% average precision and recall values over all considered repositories, respectively. Moreover, the proposed approach saves reviewing time and effort on average between (67% and 91%) by K-Means algorithm and between (67% and 83%) by agglomeration hierarchical clustering algorithm.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: We first extract descriptive textual information from pull-requests content to link similar pull-requests together. Then, we employ the extracted information to find similarities among pull-requests. Finally, machine learning algorithms (K-Means clustering and agglomeration hierarchical clustering algorithms) are used to group similar pull-requests together.
 
 tags:
 - Source Themes
@@ -34,8 +33,8 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/wowchemy/wowchemy-hugo-themes'
+url_pdf: https://www.mdpi.com/2078-2489/13/2/73
+url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
@@ -62,15 +61,6 @@ projects: []
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+# slides: example
 ---
 
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).

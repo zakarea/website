@@ -1,15 +1,16 @@
 ---
-title: "Automatic Identification of Similar Pull-Requests in GitHub’s Repositories Using Machine Learning"
+title: "An Evaluation of the RSA Private Keys and the Presence of Weak Keys"
 authors:
-- H. Eyal-Salman
+- Mahmoud M. Almazari
+- Eyad Taqieddin
+- Ahmed S. Shatnawi
 - admin
-- A. -D. Seriai
 
-date: "2022-02-03T00:00:00Z"
-doi: "10.3390/info13020073"
+date: "2022-11-01T00:00:00Z"
+doi: "10.13140/RG.2.2.17106.22728"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2022-12-28T00:00:00Z"
+publishDate: "2023-1-28T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -18,13 +19,13 @@ publishDate: "2022-12-28T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "IEEE Access"
+publication: "Journal of Discrete Mathematical Sciences & Cryptography"
 publication_short: ""
 
-abstract: In a social coding platform such as GitHub, a pull-request mechanism is frequently used by contributors to submit their code changes to reviewers of a given repository. In general, these code changes are either to add a new feature or to fix an existing bug. However, this mechanism is distributed and allows different contributors to submit unintentionally similar pull-requests that perform similar development activities. Similar pull-requests may be submitted to review in parallel time by different reviewers. This will cause redundant reviewing time and efforts. Moreover, it will complicate the collaboration process. Objective: Therefore, it is useful to assign similar pull-requests to the same reviewer to be able to decide which pull-request to choose in effective time and effort. In this article, we propose to group similar pull-requests together into clusters so that each cluster is assigned to the same reviewer or the same reviewing team. This proposal allows saving reviewing efforts and time. Method: To do so, we first extract descriptive textual information from pull-requests content to link similar pull-requests together. Then, we employ the extracted information to find similarities among pull-requests. Finally, machine learning algorithms (K-Means clustering and agglomeration hierarchical clustering algorithms) are used to group similar pull-requests together. Results: To validate our proposal, we have applied it to twenty popular repositories from public dataset. The experimental results show that the proposed approach achieved promising results according to the well-known metrics in this subject: precision and recall. Furthermore, it helps to save the reviewer time and effort. Conclusion: According to the obtained results, the K-Means algorithm achieves 94% and 91% average precision and recall values over all considered repositories, respectively, while agglomeration hierarchical clustering performs 93% and 98% average precision and recall values over all considered repositories, respectively. Moreover, the proposed approach saves reviewing time and effort on average between (67% and 91%) by K-Means algorithm and between (67% and 83%) by agglomeration hierarchical clustering algorithm.
+abstract: Numerous applications that rely on assymmetric cryptography use the RSA algorithm. It can be applied to digital signatures and the encryption of sensitive data. The secure storage of the private key is essential for the algorithm's strength. Finding ways to use factorization or other heuristics to determine the value of the private key was the goal of several academic efforts. The Euler totient or the Carmichael functions are both used in this study to analyze the private key properties and demonstrate the existence of many private keys for the same public key. We further demonstrate that a universal key that complies with the FIPS standard exists. Moreover, by taking advantage of a condition imposed by FIPS recommendations, we present a new method for attacking the RSA modulus (N). The attack is based on the value of the private key being greater than 2^(n/2) with n representing the modulus size.
 
 # Summary. An optional shortened abstract.
-summary: We first extract descriptive textual information from pull-requests content to link similar pull-requests together. Then, we employ the extracted information to find similarities among pull-requests. Finally, machine learning algorithms (K-Means clustering and agglomeration hierarchical clustering algorithms) are used to group similar pull-requests together.
+summary: Numerous applications that rely on assymmetric cryptography use the RSA algorithm. It can be applied to digital signatures and the encryption of sensitive data. The secure storage of the private key is essential for the algorithm's strength. Finding ways to use factorization or other heuristics to determine the value of the private key was the goal of several academic efforts. The Euler totient or the Carmichael functions are both used in this study to analyze the private key properties and demonstrate the existence of many private keys for the same public key. We further demonstrate that a universal key that complies with the FIPS standard exists. Moreover, by taking advantage of a condition imposed by FIPS recommendations, we present a new method for attacking the RSA modulus (N). The attack is based on the value of the private key being greater than 2^(n/2) with n representing the modulus size.
 
 tags:
 - Source Themes
@@ -33,8 +34,8 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: https://www.mdpi.com/2078-2489/13/2/73
-url_code: ''
+url_pdf: http://dx.doi.org/10.13140/RG.2.2.17106.22728
+url_code: 'https://github.com/topics/rsa-universal-key'
 url_dataset: ''
 url_poster: ''
 url_project: ''
