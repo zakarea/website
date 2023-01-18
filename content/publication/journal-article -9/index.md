@@ -21,7 +21,7 @@ publishDate: "2016-11-01T00:00:00Z"
 publication_types: ["5"]
 
 # Publication name and optional abbreviated publication name.
-publication: "International Journal of Cloud Computing"
+publication: "PhD thesis: University of Montpellier - LIRMM/CNRS, MAREL team ( Models And Reuse Engineering, Languages)"
 publication_short: ""
 
 abstract: 
