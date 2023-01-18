@@ -1,17 +1,16 @@
 ---
-title: "CoMe4ACloud: An end-to-end framework for autonomic Cloud systems"
+title: "Reverse engineering reusable software components from object-oriented APIs"
 authors:
+- Anas Shatnawi
+- Abdelhak-Djamel Seriai
+- Houari Sahraoui
 - admin
-- Frederico Alvares
-- Hugo Bruneliere
-- Jonathan Lejeune
-- Charles PrudHomme
-- Thomas Ledoux
-date: "2018-09-01T00:00:00Z"
-doi: "10.1016/j.future.2018.03.039"
+
+date: "2017-09-01T00:00:00Z"
+doi: "10.1016/j.jss.2016.06.101"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2018-09-01T00:00:00Z"
+publishDate: "2017-09-01T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -20,13 +19,13 @@ publishDate: "2018-09-01T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Future Generation Computer Systems"
+publication: "Journal of Systems and Software"
 publication_short: ""
 
-abstract: Autonomic Computing has largely contributed to the development of self-manageable Cloud services. It notably allows freeing Cloud administrators of the burden of manually managing varying-demand services, while still enforcing Service-Level Agreements (SLAs). All Cloud artifacts, regardless of the layer carrying them, share many common characteristics. Thus, it should be possible to specify, (re)configure and monitor any XaaS (Anything-as-a-Service) layer in an homogeneous way. To this end, the CoMe4ACloud approach proposes a generic model-based architecture for autonomic management of Cloud systems. We derive a generic unique Autonomic Manager (AM) capable of managing any Cloud service, regardless of the layer. This AM is based on a constraint solver which aims at finding the optimal configuration for the modeled XaaS, i.e. the best balance between costs and revenues while meeting the constraints established by the SLA. We evaluate our approach in two different ways. Firstly, we analyze qualitatively the impact of the AM behavior on the system configuration when a given series of events occurs. We show that the AM takes decisions in less than 10 s for several hundred nodes simulating virtual/physical machines. Secondly, we demonstrate the feasibility of the integration with real Cloud systems, such as Openstack, while still remaining generic. Finally, we discuss our approach according to the current state-of-the-art.
+abstract: Object-oriented Application Programing Interfaces (APIs) support software reuse by providing pre-implemented functionalities. Due to the huge number of included classes, reusing and understanding large APIs is a complex task. Otherwise, software components are accepted to be more reusable and understandable entities than object-oriented ones. Thus, in this paper, we propose an approach for reengineering object-oriented APIs into component-based ones. We mine components as a group of classes based on the frequency they are used together and their ability to form a quality-centric component. To validate our approach, we experimented on 100 Java applications that used four APIs.
 
 # Summary. An optional shortened abstract.
-summary: The CoMe4ACloud approach proposes a generic model-based architecture for autonomic management of Cloud systems. We derive a generic unique Autonomic Manager (AM) capable of managing any Cloud service, regardless of the layer. This AM is based on a constraint solver which aims at finding the optimal configuration for the modeled XaaS, i.e. the best balance between costs and revenues while meeting the constraints established by the SLA.
+summary: Object-oriented Application Programing Interfaces (APIs) support software reuse by providing pre-implemented functionalities. Due to the huge number of included classes, reusing and understanding large APIs is a complex task. Otherwise, software components are accepted to be more reusable and understandable entities than object-oriented ones. Thus, in this paper, we propose an approach for reengineering object-oriented APIs into component-based ones. We mine components as a group of classes based on the frequency they are used together and their ability to form a quality-centric component. To validate our approach, we experimented on 100 Java applications that used four APIs.
 
 tags:
 - Source Themes
@@ -35,11 +34,11 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: https://www.sciencedirect.com/sdfe/reader/pii/S0167739X17320605/pdf
+url_pdf: https://www.sciencedirect.com/science/article/pii/S016412121630098X
 url_code: ''
 url_dataset: ''
 url_poster: ''
-url_project: 'https://come4acloud.github.io/'
+url_project: ''
 url_slides: ''
 url_source: ''
 url_video: ''
