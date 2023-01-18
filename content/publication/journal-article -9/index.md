@@ -35,14 +35,14 @@ featured: false
 
 # links:
 # - name: ""
-url: "https://theses.hal.science/tel-01816975"
+# url: "https://theses.hal.science/tel-01816975"
 url_pdf: https://theses.hal.science/tel-01816975v2/file/2016_AL_SHARA_archivage.pdf
 url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: ''
+url_source: 'https://theses.hal.science/tel-01816975'
 url_video: ''
 
 # Featured image
