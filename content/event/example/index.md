@@ -1,28 +1,28 @@
 ---
 title: Example Talk
 
-event: Wowchemy Conference
-event_url: https://example.org
+event: SDS 2022 Conference
+event_url: https://emergingtechnet.org/SDS2022/
 
-location: Wowchemy HQ
+location: Paris
 address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
-  country: United States
+#  street: 450 Serra Mall
+  city: Paris
+#  region: CA
+#  postcode: '94305'
+  country: France
 
-summary: An example talk using Wowchemy's Markdown slides feature.
-abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
+summary: NIV-Detector: An Automated Approach for Detecting Next-Intent Security Vulnerability in Android Applications
+abstract: '—In Android inter-process communication, any component can start another public component using an Intent messaging object nevertheless the components belong to different processes or applications. Besides, the private components should be protected and only be accessible by the same process. However, the malicious application can breach access and directly starts private components from another process, causing Next-Intent Vulnerability (NIV). The leading cause of NIV comes from lunching unsafe Nested Intent sent by the malicious application. In this paper, we propose a new approach and implement its tool to automatically inspect NIV code smells. We integrate our tool, named NIV-Detector, with Android Studio as a plugin to be available during development time. We use NIV-Detector to inspect 100 Android GitHub projects. As a result, we successfully confirmed ten vulnerable projects with 14 NIV smells.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2030-06-01T13:00:00Z'
-date_end: '2030-06-01T15:00:00Z'
+date: '2022-12-12T13:00:00Z'
+date_end: '2022-12-15T15:00:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: '2017-01-01T00:00:00Z'
+publishDate: '2022-12-12T00:00:00Z'
 
 authors: []
 tags: []
@@ -35,39 +35,9 @@ image:
   focal_point: Right
 
 links:
-  - icon: twitter
-    icon_pack: fab
-    name: Follow
-    url: https://twitter.com/georgecushen
 url_code: ''
 url_pdf: ''
 url_slides: ''
 url_video: ''
 
-# Markdown Slides (optional).
-#   Associate this talk with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides: example
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects:
-  - example
 ---
-
-{{% callout note %}}
-Click on the **Slides** button above to view the built-in slides feature.
-{{% /callout %}}
-
-Slides can be added in a few ways:
-
-- **Create** slides using Wowchemy's [_Slides_](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
-- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
-- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
-
-Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page.
