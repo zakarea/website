@@ -14,7 +14,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Assistant Professor of Software Engineering
+role: Associate Professor of Software Engineering
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -81,6 +81,6 @@ email: 'zmalshara@just.edu.jo'
 highlight_name: true
 ---
 
-I am an assistant professor at Jordan University of Science and Technology in the Software Engineering department. I received my PhD in Software Engineering from the University of Montpellier (UM-LIRMM / CNRS) in 2016. I was working on the modernization and migration of Object-oriented applications to Component-based (CBSE) and Service-oriented Architecture (SOA). After that, I spent one year at IMT Atlantique & INRIA as a postdoc. During my postdoc, I worked on the CoMe4ACloud project (Constraints and Model Engineering for Autonomic Clouds) to provide an end-to-end solution for autonomic Cloud services. Finally, I had a permanent position at Berger-Levrault as Research and Development Engineer. I was working on the modernization of web applications to Software as a Service (SaaS). As a result, I have published many high-quality papers in the domain of software engineering, software security, artificially intelligent, and cloud computing.
+I am an associate professor at Jordan University of Science and Technology in the Software Engineering department. I received my PhD in Software Engineering from the University of Montpellier (UM-LIRMM / CNRS) in 2016. I was working on the modernization and migration of Object-oriented applications to Component-based (CBSE) and Service-oriented Architecture (SOA). After that, I spent one year at IMT Atlantique & INRIA as a postdoc. During my postdoc, I worked on the CoMe4ACloud project (Constraints and Model Engineering for Autonomic Clouds) to provide an end-to-end solution for autonomic Cloud services. Finally, I had a permanent position at Berger-Levrault as Research and Development Engineer. I was working on the modernization of web applications to Software as a Service (SaaS). As a result, I have published many high-quality papers in the domain of software engineering, software security, artificially intelligent, and cloud computing.
 At the level of industry, I have more than six years of experience in the industry of software development and programming. I am a professional in Java, android, and I have a good experience in other script and programming languages like Qiskit, Python, Angular, C++, Xtext, CSS, etc. I have developed many applications over mobile, desktop, and server.
 {style="text-align: justify;"}
